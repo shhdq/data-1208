@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  transition: 800ms;
+  color: red;
+}
+nav {
+  padding: 10px;
+  background-color: grey;
+  display: flex;
+}
